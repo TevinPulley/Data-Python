@@ -37,7 +37,6 @@ for line in open_file:
         total = int(values[3]) * float(values[4])
         choclate_c += total
         
-        print(choclate_c)
 open_file.close()
 
 open_file = open("CupcakeInvoices.csv")
@@ -48,7 +47,6 @@ for line in open_file:
         total = int(values[3]) * float(values[4])
         vanilla_c += total
         
-        print(vanilla_c)
 open_file.close()
 
 open_file = open("CupcakeInvoices.csv")
@@ -59,8 +57,10 @@ for line in open_file:
         total = int(values[3]) * float(values[4])
         strawberry_c += total
         
-        print(strawberry_c)
+ 
 open_file.close()
+
+print(strawberry_c, choclate_c, vanilla_c)
 
 ###### I was trying to get these to come out as a single response down below. i couldn't figure it out nor find help for it. 
 ######### I would still like to know how to do this so if you see this please reach out to me!
